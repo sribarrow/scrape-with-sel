@@ -10,6 +10,7 @@ repos:
   - id: check-yaml
   - id: end-of-file-fixer
   - id: trailing-whitespace
+    language_version: python3
 - repo: https://gitlab.com/pycqa/flake8
   rev: 3.7.9
   hooks:
