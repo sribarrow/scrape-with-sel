@@ -1,12 +1,12 @@
 """
     This is the main module for the application
 """
-from datetime import date
+from datetime import datetime
 
 
 def main() -> None:
-    today = date(2022, 1, 1)
-    print(today)
+    today = datetime.today()
+    return today.year
 
 
 if __name__ == "__main__":
