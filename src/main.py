@@ -1,3 +1,6 @@
+"""
+    This is the main module for the application
+"""
 from datetime import date
 
 
