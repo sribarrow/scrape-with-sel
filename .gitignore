@@ -1,1 +1,3 @@
 reference.txt
+tests/__pycache__/*
+python_template_repo/__pycache__/*
