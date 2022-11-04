@@ -6,7 +6,7 @@ from datetime import datetime
 
 def main() -> None:
     today = datetime.today()
-    return today.year
+    return today
 
 
 if __name__ == "__main__":

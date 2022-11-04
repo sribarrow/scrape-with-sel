@@ -1,8 +1,6 @@
 reference.txt
-tests/__pycache__/
-python_template_repo/__pycache__/
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
