@@ -4,7 +4,7 @@
 from datetime import datetime
 
 
-def main() -> None:
+def main() -> datetime:
     today = datetime.today()
     return today
 
