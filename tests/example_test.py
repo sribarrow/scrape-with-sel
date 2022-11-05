@@ -1,7 +1,7 @@
 """
     Unit test case for main module
 """
-from python_template_repo.main import main
+from src.example import main
 
 
 def test_main_year() -> None:
