@@ -3,6 +3,7 @@
 """
 from src.web_scrape import main
 
+
 def test_failure():
     result = main()
-    assert 1== result
+    assert 1 == result
