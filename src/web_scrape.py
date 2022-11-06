@@ -26,7 +26,7 @@ def set_options() -> list:
     return [options, chrome_options]
 
 
-def main(t: int = 10) -> None:
+def main(t: int = 10) -> list:
     # import time
     # configure webdriver
     options, chrome_options = set_options()
@@ -52,9 +52,9 @@ def main(t: int = 10) -> None:
                 "viewers": "".join(item.css(".tw-media-card-stat::text").re(r"(\d+)")),
             }
         )
-    print(parsed)
     driver.quit()
+    return parsed
 
 
 if __name__ == "__main__":
-    main()
+    print(main())
