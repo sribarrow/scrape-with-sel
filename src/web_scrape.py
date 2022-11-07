@@ -1,5 +1,4 @@
-import time
-
+# import time
 from parsel import Selector
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -26,13 +25,13 @@ def set_options() -> list:
     return [options, chrome_options]
 
 
-def main(t: int = 10) -> list:
+def main() -> list:
     # import time
     # configure webdriver
     options, chrome_options = set_options()
     driver = webdriver.Chrome(options=options, chrome_options=chrome_options)
     driver.get("https://www.twitch.tv/directory/game/Art")
-    time.sleep(t)
+    # time.sleep(t)
     # wait for page to load
     # element = WebDriverWait(driver=driver, timeout=5).until(
     #     EC.presence_of_element_located(
